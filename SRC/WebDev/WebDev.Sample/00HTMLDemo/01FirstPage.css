@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+p {
+    font-size: 10pt;                
+    color: rgb(50, 49, 134);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    font-size: 12pt;
+    color: green;
+}
+
+#s3, #s4 {
+    font-size: 16pt;
+    
+}

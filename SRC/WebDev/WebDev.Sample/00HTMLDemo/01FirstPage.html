@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My First HTML Page</title>
+        <link rel="stylesheet" href="01FirstPage.css">
+    </head>
+    <style></style>
+    <script>
+        function removeSpansWithoutId() {
+            document.querySelectorAll('span:not([id])').forEach(function(span) {
+            span.remove();
+            });
+        }
+    </script>
+    <body>
+        <h1>My First Heading</h1>
+        <h2>My Second Heading</h2>
+        <h3>My Third Heading</h3>
+        <p>My first paragraph.</p> 
+        <p>second paragraph.</p>
+        <div>
+            <span>My first paragraph in a div.</span>
+            <span>Second paragraph in a div.</span>
+            <span id="s3">Third paragraph in a div.</span>
+            <span id="s4">Fourth paragraph in a div.</span>
+        </div>
+        <h1>My footer h1</h1>
+        <button onclick="removeSpansWithoutId()">Remove Spans Without ID</button>
+    </body>
+</html>
